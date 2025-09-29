@@ -1,10 +1,8 @@
 package org.example.service;
 
+import lombok.RequiredArgsConstructor;
 import org.example.entity.UrlMapping;
 import org.example.repository.UrlMappingRepository;
-import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
